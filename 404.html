@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="refresh" content="0;url=https://liventcord.github.io/LiventCord/app">
     <script>
-        const baseUrl = "https://liventcord.github.io"
+        const baseUrl = window.location.origin;
         const fullPath = window.location.pathname + window.location.search + window.location.hash
         if (window.location.href.startsWith(baseUrl + "/") && !window.location.href.includes("/LiventCord/app")) {
             const target = baseUrl + "/LiventCord/app?page=" + encodeURIComponent(fullPath)
