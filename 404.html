@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=https://liventcord.github.io/LiventCord/app">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0;url=https://liventcord.github.io/LiventCord/app" />
     <script>
-        const baseUrl = window.location.origin;
-        const fullPath = window.location.pathname + window.location.search + window.location.hash
-        if (window.location.href.startsWith(baseUrl + "/") && !window.location.href.includes("/LiventCord/app")) {
-            const target = baseUrl + "/LiventCord/app?page=" + encodeURIComponent(fullPath)
-            window.location.replace(target)
-        }
+      const baseUrl = window.location.origin;
+      const fullPath = window.location.pathname + window.location.search + window.location.hash;
+      if (window.location.href.startsWith(baseUrl + '/') && !window.location.href.includes('/LiventCord/app')) {
+        const target = baseUrl + '/LiventCord/app?page=' + encodeURIComponent(fullPath);
+        window.location.replace(target);
+      }
     </script>
-</head>
-<body></body>
+  </head>
+  <body></body>
 </html>
